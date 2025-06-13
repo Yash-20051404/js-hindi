@@ -28,3 +28,33 @@ let myObj = {
 const myFunction = function(){
     console.log("hello world")
 }
+
+
+//*******************************//
+
+//Stack (primitive) , Heap (Non-Primitive)
+
+//stack me change krte h to copy millta hai 
+//heap me jo change krte h vo original m change hota hai 
+
+let myName = "yash"
+
+let anotherName = myName
+anotherName = "yoyoyo"
+
+console.log(myName)   //yash
+console.log(anotherName)   //yoyoyo
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl.com",
+
+}
+
+let userTwo = userOne
+
+userTwo.email = "yash@google.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
+
