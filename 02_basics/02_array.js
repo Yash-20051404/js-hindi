@@ -13,20 +13,20 @@ const ALLHEROS = [...marvel_heros , ...dc_heros]    //spread operator
 console.log(ALLHEROS)
 
 const newarray = [1, 2, 3, [4, 5, 6], 7, [6, 7, [4,5]]]
-const newarray2 = newarray.flat(Infinity)
-console.log(newarray2)
+const newarray2 = newarray.flat(Infinity);
+console.log(newarray2);
 
 // jha infinity likha hai vh depth deni hoti hai like usme kitne arrays hai
 
-// saare array ko ek array me convert krke deta hai 
+// saare array ko ek array me convert krke deta hai;
 
-console.log(Array.isArray("yash")  //return true or false on whether yash is array
-console.log(Array.from("yash"))    // returns a array from yash 
+console.log(Array.isArray("yash"); //return true or false on whether yash is array
+console.log(Array.from("yash"));
 
-console.log(Array.from({name: "yash"}))
+console.log(Array.from({name: "yash"}));
 
-let score1 = 400
-let score2 = 300
-let score3 = 600
+let score1 = 400;
+let score2 = 300;
+let score3 = 600;
 
-console.log(Array.of(score1, score2, score3))
+console.log(Array.of(score1, score2, score3));
